@@ -5,7 +5,7 @@ import FrameFooter from "./FrameFooter"
 
 const Footer = () => {
   return (
-    <div className="bg-slate-900">
+    <div className="bg-slate-900  bottom-0	">
         <div className="container">
             <div className="flex ">
                   <div className="flex-1 my-4 mr-[31px] w-[25%]">
