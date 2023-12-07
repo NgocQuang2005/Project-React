@@ -1,7 +1,7 @@
-import Offer from "./Offer"
-import anh1 from './img/lighting-upgrades-thumb-G3.jpg'
-import anh2 from './img/electrical-repairs-thumb-G1.jpg'
-import anh3 from './img/surge-protection-thumb-G4.jpg'
+import Offer from "../Inheritance/Offer"
+import anh1 from '../img/lighting-upgrades-thumb-G3.jpg'
+import anh2 from '../img/electrical-repairs-thumb-G1.jpg'
+import anh3 from '../img/surge-protection-thumb-G4.jpg'
 
 const WhatOffer=()=>{
     return(

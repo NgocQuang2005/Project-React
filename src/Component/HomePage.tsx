@@ -1,11 +1,11 @@
-import BodyIndex from "./BodyIndex"
-import Footer from "./Footer"
-import Header from "./Header"
-import ProductList from "./ProductList"
+import BodyIndex from "./ContentHome/BodyIndex"
+import Footer from "./Layout/Footer"
+import Header from "./Layout/Header"
+import ProductList from "./ContentHome/ProductList"
 
-import SlideA from "./Slide"
-import SubToOurNews from "./SubToOurNews"
-import WhatOffer from "./WhatOffer"
+import SlideA from "./ContentHome/Slide"
+import SubToOurNews from "./ContentHome/SubToOurNews"
+import WhatOffer from "./ContentHome/WhatOffer"
 
 
 const HomePage = () => {

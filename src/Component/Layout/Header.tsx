@@ -1,6 +1,6 @@
 // import React , {useState} from "react";
 
-import Navigation from "./Navigation";
+import Navigation from "../Navigation";
 // const MenuItem = ({ title, children , icon }  : { title?: string; children: React.ReactNode ,icon?: React.ReactNode} ) => {
 //   const [isHovered, setIsHovered] = useState(false);
 

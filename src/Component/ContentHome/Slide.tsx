@@ -4,9 +4,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import slide1 from './img/slide1.webp'
-import slide2 from './img/slide2.webp'
-import slide3 from './img/slide3.webp'
+import slide1 from '../img/slide1.webp'
+import slide2 from '../img/slide2.webp'
+import slide3 from '../img/slide3.webp'
 
 const SlideA= ()=>{
     return(

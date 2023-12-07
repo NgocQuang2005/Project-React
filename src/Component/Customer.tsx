@@ -1,5 +1,5 @@
-import Footer from "./Footer"
-import Header from "./Header"
+import Footer from "./Layout/Footer"
+import Header from "./Layout/Header"
 const Customer = () => {
   return (
     <>

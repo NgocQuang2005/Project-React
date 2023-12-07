@@ -1,8 +1,5 @@
-import ContactInformation from "./ContactInformation"
-import FrameFooter from "./FrameFooter"
-
-
-
+import ContactInformation from "../Inheritance/ContactInformation"
+import FrameFooter from "../Inheritance/FrameFooter"
 const Footer = () => {
   return (
     <div className="bg-slate-900  bottom-0	">
