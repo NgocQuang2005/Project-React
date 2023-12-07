@@ -2,7 +2,7 @@ import { IoCall } from "react-icons/io5";
 import Suachua from "./img/category-img-1.jpg"
 const BodyIndex =()=>{
     return(
-    <div className='max-w-screen-xl mx-auto flex my-5 container'>
+    <div className='max-w-screen-xl mx-auto flex my-5 container '>
       <div>
           <img width={580} height={397} src={Suachua} alt="" />
       </div>
