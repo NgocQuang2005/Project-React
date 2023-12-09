@@ -1,4 +1,5 @@
 {
+  
   "name": "project-react",
   "private": true,
   "version": "1.0.0",
@@ -18,6 +19,7 @@
     "autoprefixer": "^10.4.16",
     "axios": "^1.6.2",
     "bootstrap": "^5.3.2",
+    "gh-pages": "^6.1.0",
     "postcss": "^8.4.32",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",

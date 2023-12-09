@@ -11,7 +11,7 @@ const SubToOurNews = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // Validate Your Name
+    //  Your Name
     if (name.length < 4) {
       setNameError("Your name Ít Nhất 4 Kí Tự");
       return;
@@ -19,7 +19,7 @@ const SubToOurNews = () => {
       setNameError("");
     }
 
-    // Validate Phone
+    //  Phone
     if (phone.length !== 10) {
       setPhoneError("Phone Ít Nhất 10 Kí Tự");
       return;
@@ -27,7 +27,7 @@ const SubToOurNews = () => {
       setPhoneError("");
     }
 
-    // Validate Email
+    //  Email
     const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
     if (!emailRegex.test(email)) {
       setEmailError("Địa Chỉ Email Không Hợp Lệ");
@@ -35,7 +35,6 @@ const SubToOurNews = () => {
     } else {
       setEmailError("");
     }
-    // If all validations pass, you can proceed with form submission
     console.log("Form submitted:", { name, email, phone });
   };
 
